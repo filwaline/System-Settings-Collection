@@ -11,8 +11,6 @@ mixin: # object
             - '*.msftncsi.com'
         use-hosts: true # lookup hosts and return IP record
         nameserver:
-            - 119.29.29.29 # DNSpod DNS 17ms
-            - 223.5.5.5 # 阿里 19ms
             - https://doh.pub/dns-query # 腾讯 Doh
             - https://dns.alidns.com/dns-query # 阿里 Doh
         # 提供 fallback 时，如果GEOIP非 CN 中国时使用 fallback 解析
