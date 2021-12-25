@@ -13,9 +13,10 @@ mixin: # object
         nameserver:
             - 119.29.29.29 # DNSpod DNS 17ms
             - 223.5.5.5 # 阿里 19ms
+            - https://doh.pub/dns-query # 腾讯 Doh
+            - https://dns.alidns.com/dns-query # 阿里 Doh
         # 提供 fallback 时，如果GEOIP非 CN 中国时使用 fallback 解析
         fallback:
-            # - tls://CFW-7b58e4.dns.nextdns.io # NextDNS over TLS
             - tls://8.8.8.8:853 # Google DNS over TLS
             - tls://8.8.4.4:853 # cloudflare DNS over TLS
             - https://1.1.1.1/dns-query # cloudflare DNS over HTTPS
