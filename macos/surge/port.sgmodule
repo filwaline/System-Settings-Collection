@@ -1,0 +1,6 @@
+#!name=Port Overwrite
+#!desc=Overwrite listen port to http@8234, socks@8235
+
+[General]
+http-listen = 0.0.0.0:8234
+socks5-listen = 0.0.0.0:8235
