@@ -1,0 +1,6 @@
+#!name=DoH
+#!desc=DNS over https
+
+[General]
+doh-server = https://doh.pub/dns-query, https://1.1.1.1/dns-query
+doh-follow-outbound-mode=true
