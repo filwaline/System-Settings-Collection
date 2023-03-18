@@ -43,6 +43,18 @@ https://github.com/XAMPPRocky/tokei
 https://github.com/ClementTsang/bottom
 
 
+## jql
+> A JSON Query Language CLI tool built with Rust
+
+https://github.com/yamafaktory/jql
+
+
+## ripgrep
+> ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+
+https://github.com/BurntSushi/ripgrep
+
+
 ## starship
 > The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
